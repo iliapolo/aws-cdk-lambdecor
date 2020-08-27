@@ -1,0 +1,2 @@
+py-ci==0.8.3
+virtualenv==20.0.14

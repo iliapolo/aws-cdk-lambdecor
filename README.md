@@ -1,58 +1,74 @@
+# aws-cdk-lambdecor
 
-# Welcome to your CDK Python project!
+Transform native python function into AWS CDK Custom Resources.
 
-This is a blank project for Python development with CDK.
+```python
+from aws_cdk_lambdecor import aws_lambda
+from aws_cdk import core as cdk
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+app = cdk.App()
+stack = cdk.Stack(app, 'HelloLambdecor')
 
-This project is set up like a standard Python project.  The initialization
-process also creates a virtualenv within this project, stored under the .env
-directory.  To create the virtualenv it assumes that there is a `python3`
-(or `python` for Windows) executable in your path with access to the `venv`
-package. If for any reason the automatic creation of the virtualenv fails,
-you can create the virtualenv manually.
+@aws_lambda(stack)
+def greet():
+  return 'hello'
 
-To manually create a virtualenv on MacOS and Linux:
+# invoke the function just like a regular function
+greeting = greet()
 
-```
-$ python3 -m venv .env
-```
+# return value is a token that can be used later on
+cdk.CfnOutput(stack, 'Greeting', value=greeting)
 
-After the init process completes and the virtualenv is created, you can use the following
-step to activate your virtualenv.
-
-```
-$ source .env/bin/activate
+app.synth()
 ```
 
-If you are a Windows platform, you would activate the virtualenv like this:
+You can also use tokens:
 
+```python
+from aws_cdk_lambdecor import aws_lambda
+from aws_cdk import core as cdk
+from aws_cdk import s3
+
+app = cdk.App()
+stack = cdk.Stack(app, 'HelloLambdecor')
+
+@aws_lambda(stack)
+def download_index(bucket_name):
+  return download(f's3://{bucket_name}/index.html')
+
+bucket = s3.Bucket.from_bucket_name(stack, 'Website', 'www.mysite.com')
+index = download_index(bucket.bucket_name)
+
+cdk.CfnOutput(stack, 'Index', value=index)
+
+app.synth()
 ```
-% .env\Scripts\activate.bat
+
+## Runtime
+
+The Custom Resource is created with the [Python3.6 Lambda Runtime](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
+
+### Imports
+
+Your function code should do an inline import of the python module you want to use. For example, to use the `urllib3` module, you would write:
+
+```python
+@aws_lambda(stack)
+def download():
+  import urllib3
+  # do something...
 ```
 
-Once the virtualenv is activated, you can install the required dependencies.
+> The `json` library is pre-imported, so you don't have to do this to use `json`.
 
-```
-$ pip install -r requirements.txt
-```
+## Install
 
-At this point you can now synthesize the CloudFormation template for this code.
+`pip install aws-cdk-lambdecor`
 
-```
-$ cdk synth
-```
+## Possible Future Work
 
-To add additional dependencies, for example other CDK libraries, just add
-them to your `setup.py` file and rerun the `pip install -r requirements.txt`
-command.
-
-## Useful commands
-
- * `cdk ls`          list all stacks in the app
- * `cdk synth`       emits the synthesized CloudFormation template
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk docs`        open CDK documentation
-
-Enjoy!
+- Support customizing all properties of the CDK Lambda Function (i.e runtime, memory, environment...)
+- Pre-import additional common libraries.
+- Implicit CDK scope creation to support CDK applications consisting of just these lambda functions.
+- Implicit creation of Stack output.
+- Command line invocation of function that runs `cdk deploy` and parses the stack output. (i.e `result=$(aws-cdk-lamdecor invoke func.py)`)
