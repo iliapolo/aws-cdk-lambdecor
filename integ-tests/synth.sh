@@ -14,7 +14,7 @@ python3 --version
 pip3 --version
 
 echo "Installing test requirements"
-pip install -r test-requirements.txt
+pip3 install -r test-requirements.txt
 
 echo "Installing aws-cdk"
 npm install -g aws-cdk
@@ -32,7 +32,7 @@ echo "Python: $(which python)"
 echo "CDK: $(which cdk)"
 
 echo "Installing package"
-pip install *.whl
+pip3 install *.whl
 
 echo "Synthesizing integration tests"
 cd integ-tests
