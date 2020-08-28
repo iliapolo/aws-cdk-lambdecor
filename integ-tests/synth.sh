@@ -15,7 +15,7 @@ npm install -g aws-cdk
 
 echo "Packaging Wheel"
 rm -rf *.whl
-pyci pack --path . wheel
+pyci --debug pack --path . wheel
 
 echo "Creating Virtualenv"
 rm -rf .aws-cdk-lambdecor-integ-tests
