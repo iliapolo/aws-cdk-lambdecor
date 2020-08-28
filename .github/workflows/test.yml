@@ -3,7 +3,7 @@ on: [pull_request]
 
 jobs:
   integ:
-    name: Integration Tests
+    name: Integration
     runs-on: ubuntu-latest
     container:
       image: jsii/superchain

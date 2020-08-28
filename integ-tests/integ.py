@@ -5,9 +5,7 @@ from aws_cdk import aws_s3 as s3
 from aws_cdk_lambdecor import aws_lambda
 
 app = cdk.App()
-stack = cdk.Stack(app, 'aws-cdk-lambdecor-integ-test', env=cdk.Environment(
-  account=os.environ['AWS_ACCOUNT'],
-  region=os.environ['AWS_DEFAULT_REGION']))
+stack = cdk.Stack(app, 'aws-cdk-lambdecor-integ-test')
 
 bucket = s3.Bucket(stack, 'Bucket', removal_policy=cdk.RemovalPolicy.DESTROY)
 
