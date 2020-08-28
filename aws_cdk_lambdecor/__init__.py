@@ -34,7 +34,7 @@ class aws_lambda(object):
           'kwargs': json.dumps(kwargs)
         })
 
-      return resource.get_att_string('Value')
+      return resource.get_att('Value')
 
     return wrapper
 

@@ -27,23 +27,23 @@
               "artifactHashParameter": "AssetParameters812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14ArtifactHash47216AA1"
             },
             "trace": [
-              "ConstructNode.addMetadata (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/construct-compat.js:310:62)",
-              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:130:29)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
-              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
-              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
-              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "ConstructNode.addMetadata (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/construct-compat.js:310:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:130:29)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
+              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
+              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
+              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -53,14 +53,14 @@
             "type": "aws:cdk:logicalId",
             "data": "Bucket83908E77",
             "trace": [
-              "new Bucket (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-s3/lib/bucket.js:437:26)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Bucket (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-s3/lib/bucket.js:437:26)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -70,15 +70,15 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionreturnstringServiceRole102D84CF",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -88,14 +88,14 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionreturnstring0F66AC22",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -105,17 +105,17 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnstringframeworkonEventServiceRoleE85D74A7",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -125,20 +125,20 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnstringframeworkonEventServiceRoleDefaultPolicyC48EE8E0",
             "trace": [
-              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
-              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
-              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
-              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
-              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
+              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
+              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
+              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
+              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -148,16 +148,16 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnstringframeworkonEventD51AD1B0",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -167,23 +167,23 @@
             "type": "aws:cdk:logicalId",
             "data": "AssetParameters812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14S3BucketE74F71F4",
             "trace": [
-              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
-              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
-              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
-              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
-              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
+              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
+              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
+              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -193,23 +193,23 @@
             "type": "aws:cdk:logicalId",
             "data": "AssetParameters812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14S3VersionKeyCDA54A41",
             "trace": [
-              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
-              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
-              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
-              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
-              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
+              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
+              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
+              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -219,23 +219,23 @@
             "type": "aws:cdk:logicalId",
             "data": "AssetParameters812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14ArtifactHash47216AA1",
             "trace": [
-              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
-              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
-              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
-              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
-              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
+              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
+              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
+              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -245,30 +245,14 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourcereturnstring",
             "trace": [
-              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
-              "processImmediate (internal/timers.js:456:21)"
-            ]
-          }
-        ],
-        "/aws-cdk-lambdecor-integ-test/StringResult": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "StringResult",
-            "trace": [
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -278,15 +262,15 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionreturnintServiceRole85544399",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -296,14 +280,14 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionreturnint02D94574",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -313,17 +297,17 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnintframeworkonEventServiceRole20CB5B18",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -333,20 +317,20 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnintframeworkonEventServiceRoleDefaultPolicy84DDB11B",
             "trace": [
-              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
-              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
-              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
-              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
-              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
+              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
+              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
+              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
+              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -356,16 +340,16 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnintframeworkonEventD1E45267",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -375,30 +359,14 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourcereturnint",
             "trace": [
-              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
-              "processImmediate (internal/timers.js:456:21)"
-            ]
-          }
-        ],
-        "/aws-cdk-lambdecor-integ-test/IntResult": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "IntResult",
-            "trace": [
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -408,15 +376,15 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionreturnbooleanServiceRoleE271E7B1",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -426,14 +394,14 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionreturnbooleanA4D86E1F",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -443,17 +411,17 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnbooleanframeworkonEventServiceRoleBE461280",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -463,20 +431,20 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnbooleanframeworkonEventServiceRoleDefaultPolicy83DEAF51",
             "trace": [
-              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
-              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
-              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
-              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
-              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
+              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
+              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
+              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
+              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -486,16 +454,16 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnbooleanframeworkonEvent0E507764",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -505,30 +473,14 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourcereturnboolean",
             "trace": [
-              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
-              "processImmediate (internal/timers.js:456:21)"
-            ]
-          }
-        ],
-        "/aws-cdk-lambdecor-integ-test/BooleanResult": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "BooleanResult",
-            "trace": [
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -538,15 +490,15 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionreturnlistServiceRoleA9A8E3FD",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -556,14 +508,14 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionreturnlistAEAE7FA6",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -573,17 +525,17 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnlistframeworkonEventServiceRoleB626B901",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -593,20 +545,20 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnlistframeworkonEventServiceRoleDefaultPolicy9087E51B",
             "trace": [
-              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
-              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
-              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
-              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
-              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
+              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
+              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
+              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
+              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -616,16 +568,16 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProviderreturnlistframeworkonEvent1146AFFC",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -635,30 +587,128 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourcereturnlist",
             "trace": [
-              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/ListResult": [
+        "/aws-cdk-lambdecor-integ-test/LambdaFunction-return_dictionary/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "ListResult",
+            "data": "LambdaFunctionreturndictionaryServiceRoleF6A5FB71",
             "trace": [
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/aws-cdk-lambdecor-integ-test/LambdaFunction-return_dictionary/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LambdaFunctionreturndictionary07B4C6E0",
+            "trace": [
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-return_dictionary/framework-onEvent/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomResourceProviderreturndictionaryframeworkonEventServiceRole4BDB43AA",
+            "trace": [
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-return_dictionary/framework-onEvent/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomResourceProviderreturndictionaryframeworkonEventServiceRoleDefaultPolicyFAEC677A",
+            "trace": [
+              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
+              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
+              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
+              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
+              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-return_dictionary/framework-onEvent/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomResourceProviderreturndictionaryframeworkonEventC95612DD",
+            "trace": [
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ],
+        "/aws-cdk-lambdecor-integ-test/CustomResource-return_dictionary/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomResourcereturndictionary",
+            "trace": [
+              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -668,15 +718,15 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionaccepttokenServiceRole32FFE261",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -686,14 +736,14 @@
             "type": "aws:cdk:logicalId",
             "data": "LambdaFunctionaccepttoken98E52450",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -703,17 +753,17 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProvideraccepttokenframeworkonEventServiceRole3A680FFF",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -723,20 +773,20 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProvideraccepttokenframeworkonEventServiceRoleDefaultPolicyA695B0F4",
             "trace": [
-              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
-              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
-              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
-              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
-              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
+              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
+              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
+              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
+              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -746,16 +796,16 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceProvideraccepttokenframeworkonEvent83E7C483",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
@@ -765,30 +815,14 @@
             "type": "aws:cdk:logicalId",
             "data": "CustomResourceaccepttoken",
             "trace": [
-              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-1kYah7/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
-              "processImmediate (internal/timers.js:456:21)"
-            ]
-          }
-        ],
-        "/aws-cdk-lambdecor-integ-test/TokenResult": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "TokenResult",
-            "trace": [
-              "/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
-              "Kernel._wrapSandboxCode (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8417:20)",
-              "Kernel._create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
-              "Kernel.create (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
-              "KernelHost.processRequest (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
-              "KernelHost.run (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
-              "Immediate._onImmediate (/Users/epolon/.pyenv/versions/3.8.0/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
+              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-JSpKHI/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
+              "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
+              "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
+              "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
+              "Kernel.create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7676:21)",
+              "KernelHost.processRequest (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7456:28)",
+              "KernelHost.run (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7394:14)",
+              "Immediate._onImmediate (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7397:37)",
               "processImmediate (internal/timers.js:456:21)"
             ]
           }
