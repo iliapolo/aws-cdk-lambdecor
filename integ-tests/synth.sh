@@ -13,12 +13,6 @@ rm -rf .aws-cdk-lambdecor-integ-tests
 virtualenv --python python3 .aws-cdk-lambdecor-integ-tests
 source ./.aws-cdk-lambdecor-integ-tests/bin/activate
 
-python --version
-pip --version
-
-python3 --version
-pip3 --version
-
 echo "Installing test requirements"
 pip install -r test-requirements.txt
 
@@ -27,13 +21,13 @@ npm install -g aws-cdk
 
 echo "Packaging Wheel"
 rm -rf *.whl
-pyci --debug pack --path . wheel
-
-echo "Python: $(which python)"
-echo "CDK: $(which cdk)"
+pyci pack --path . wheel
 
 echo "Installing package"
 pip install *.whl
+
+echo "Python: $(which python) --> $(python --version)"
+echo "CDK: $(which cdk) --> $(cdk --version)"
 
 echo "Synthesizing integration tests"
 cd integ-tests
