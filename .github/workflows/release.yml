@@ -1,0 +1,28 @@
+name: Continuous Release
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  integ:
+    name: Integration Tests
+    runs-on: ubuntu-latest
+    container:
+      image: jsii/superchain
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Tests
+        run: |
+          ./integ-tests/synth.sh
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    container:
+      image: jsii/superchain
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Tests
+        run: |
+          pip install -r test-requirements.txt
+          pyci release

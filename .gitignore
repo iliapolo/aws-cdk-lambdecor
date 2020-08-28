@@ -111,3 +111,5 @@ report/
 cdk.out/
 .vscode/
 ./cdk.json
+.aws-cdk-lambdecor-integ-tests/
+*.whl

@@ -9,14 +9,14 @@ setuptools.setup(
     name="aws_cdk_lambdecor",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="Define AWS CDK Lambda using native python functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    license='LICENSE',
 
-    author="author",
+    author="Eli Polonsky",
 
-    package_dir={"": "aws_cdk_lambdecor"},
-    packages=setuptools.find_packages(where="aws_cdk_lambdecor"),
+    packages=["aws_cdk_lambdecor"],
 
     install_requires=[
         "aws-cdk.core==1.57.0",
@@ -28,21 +28,14 @@ setuptools.setup(
     python_requires=">=3.6",
 
     classifiers=[
-        "Development Status :: 4 - Beta",
-
+        'Operating System :: POSIX :: Linux',
+        'Operating System :: Microsoft',
+        'Topic :: Software Development :: Libraries :: Python Modules'
         "Intended Audience :: Developers",
-
         "License :: OSI Approved :: Apache Software License",
-
-        "Programming Language :: JavaScript",
         "Programming Language :: Python :: 3 :: Only",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
-
-        "Topic :: Software Development :: Code Generators",
-        "Topic :: Utilities",
-
-        "Typing :: Typed",
     ],
 )
