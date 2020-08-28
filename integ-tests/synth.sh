@@ -7,6 +7,12 @@ rootdir=${scriptdir}/../
 
 cd ${rootdir}
 
+python --version
+pip --version
+
+python3 --version
+pip3 --version
+
 echo "Installing test requirements"
 pip install -r test-requirements.txt
 
