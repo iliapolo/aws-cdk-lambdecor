@@ -34,10 +34,10 @@ def accept_token(input):
   return f'token={input}'
 
 cdk.CfnOutput(stack, 'StringResult', value=return_string('input'))
-# cdk.CfnOutput(stack, 'IntResult', value=return_int(5))
-# cdk.CfnOutput(stack, 'BooleanResult', value=return_boolean('input'))
+cdk.CfnOutput(stack, 'IntResult', value=return_int(5))
+cdk.CfnOutput(stack, 'BooleanResult', value=return_boolean('input'))
 # cdk.CfnOutput(stack, 'ListResult', value=return_list('input'))
 # cdk.CfnOutput(stack, 'DictionaryResult', value=return_dictionary('input'))
-# cdk.CfnOutput(stack, 'TokenResult', value=accept_token(bucket.bucket_name))
+cdk.CfnOutput(stack, 'TokenResult', value=accept_token(bucket.bucket_name))
 
 app.synth()
