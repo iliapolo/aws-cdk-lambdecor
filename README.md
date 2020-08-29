@@ -5,7 +5,7 @@
 
 # aws-cdk-lambdecor
 
-Transform native python function into AWS CDK Custom Resources.
+Transform native python function into [AWS CDK Custom Resources](https://docs.aws.amazon.com/cdk/api/latest/docs/custom-resources-readme.html).
 
 ```python
 from aws_cdk_lambdecor import aws_lambda
