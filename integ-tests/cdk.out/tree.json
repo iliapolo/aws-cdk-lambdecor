@@ -82,7 +82,7 @@
                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                   "aws:cdk:cloudformation:props": {
                     "code": {
-                      "zipFile": "\nimport json\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+                      "zipFile": "\nimport json\nimport urllib3\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
                     },
                     "handler": "index.handler",
                     "role": {
@@ -359,7 +359,7 @@
                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                   "aws:cdk:cloudformation:props": {
                     "code": {
-                      "zipFile": "\nimport json\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+                      "zipFile": "\nimport json\nimport urllib3\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
                     },
                     "handler": "index.handler",
                     "role": {
@@ -612,7 +612,7 @@
                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                   "aws:cdk:cloudformation:props": {
                     "code": {
-                      "zipFile": "\nimport json\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+                      "zipFile": "\nimport json\nimport urllib3\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
                     },
                     "handler": "index.handler",
                     "role": {
@@ -865,7 +865,7 @@
                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                   "aws:cdk:cloudformation:props": {
                     "code": {
-                      "zipFile": "\nimport json\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+                      "zipFile": "\nimport json\nimport urllib3\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
                     },
                     "handler": "index.handler",
                     "role": {
@@ -1118,7 +1118,7 @@
                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                   "aws:cdk:cloudformation:props": {
                     "code": {
-                      "zipFile": "\nimport json\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+                      "zipFile": "\nimport json\nimport urllib3\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
                     },
                     "handler": "index.handler",
                     "role": {
@@ -1371,7 +1371,7 @@
                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                   "aws:cdk:cloudformation:props": {
                     "code": {
-                      "zipFile": "\nimport json\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+                      "zipFile": "\nimport json\nimport urllib3\n\n# this is the original native python function\ndef typeof(positional, named):\n  return f'(positional={positional})({type(positional)}) | (named={named})({type(named)})'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = typeof(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
                     },
                     "handler": "index.handler",
                     "role": {
@@ -1571,6 +1571,259 @@
           "TokenString": {
             "id": "TokenString",
             "path": "aws-cdk-lambdecor-integ-test/TokenString"
+          },
+          "LambdaFunction-ping2a8a43b4f": {
+            "id": "LambdaFunction-ping2a8a43b4f",
+            "path": "aws-cdk-lambdecor-integ-test/LambdaFunction-ping2a8a43b4f",
+            "children": {
+              "ServiceRole": {
+                "id": "ServiceRole",
+                "path": "aws-cdk-lambdecor-integ-test/LambdaFunction-ping2a8a43b4f/ServiceRole",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "aws-cdk-lambdecor-integ-test/LambdaFunction-ping2a8a43b4f/ServiceRole/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                      "aws:cdk:cloudformation:props": {
+                        "assumeRolePolicyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "sts:AssumeRole",
+                              "Effect": "Allow",
+                              "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        },
+                        "managedPolicyArns": [
+                          {
+                            "Fn::Join": [
+                              "",
+                              [
+                                "arn:",
+                                {
+                                  "Ref": "AWS::Partition"
+                                },
+                                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                              ]
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "Resource": {
+                "id": "Resource",
+                "path": "aws-cdk-lambdecor-integ-test/LambdaFunction-ping2a8a43b4f/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                  "aws:cdk:cloudformation:props": {
+                    "code": {
+                      "zipFile": "\nimport json\nimport urllib3\n\n# this is the original native python function\ndef ping():\n  http = urllib3.PoolManager()\n  r = http.request('GET', 'http://httpbin.org/robots.txt')\n  return r.status\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = ping(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+                    },
+                    "handler": "index.handler",
+                    "role": {
+                      "Fn::GetAtt": [
+                        "LambdaFunctionping2a8a43b4fServiceRole490624B2",
+                        "Arn"
+                      ]
+                    },
+                    "runtime": "python3.7",
+                    "memorySize": 256,
+                    "timeout": 900
+                  }
+                }
+              }
+            }
+          },
+          "CustomResourceProvider-ping2a8a43b4f": {
+            "id": "CustomResourceProvider-ping2a8a43b4f",
+            "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f",
+            "children": {
+              "framework-onEvent": {
+                "id": "framework-onEvent",
+                "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f/framework-onEvent",
+                "children": {
+                  "ServiceRole": {
+                    "id": "ServiceRole",
+                    "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f/framework-onEvent/ServiceRole",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f/framework-onEvent/ServiceRole/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                          "aws:cdk:cloudformation:props": {
+                            "assumeRolePolicyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "sts:AssumeRole",
+                                  "Effect": "Allow",
+                                  "Principal": {
+                                    "Service": "lambda.amazonaws.com"
+                                  }
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "managedPolicyArns": [
+                              {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    "arn:",
+                                    {
+                                      "Ref": "AWS::Partition"
+                                    },
+                                    ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "DefaultPolicy": {
+                        "id": "DefaultPolicy",
+                        "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f/framework-onEvent/ServiceRole/DefaultPolicy",
+                        "children": {
+                          "Resource": {
+                            "id": "Resource",
+                            "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f/framework-onEvent/ServiceRole/DefaultPolicy/Resource",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                              "aws:cdk:cloudformation:props": {
+                                "policyDocument": {
+                                  "Statement": [
+                                    {
+                                      "Action": "lambda:InvokeFunction",
+                                      "Effect": "Allow",
+                                      "Resource": {
+                                        "Fn::GetAtt": [
+                                          "LambdaFunctionping2a8a43b4f9D465DC7",
+                                          "Arn"
+                                        ]
+                                      }
+                                    }
+                                  ],
+                                  "Version": "2012-10-17"
+                                },
+                                "policyName": "CustomResourceProviderping2a8a43b4fframeworkonEventServiceRoleDefaultPolicyC899404D",
+                                "roles": [
+                                  {
+                                    "Ref": "CustomResourceProviderping2a8a43b4fframeworkonEventServiceRole21F8ADF7"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "Code": {
+                    "id": "Code",
+                    "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f/framework-onEvent/Code",
+                    "children": {
+                      "Stage": {
+                        "id": "Stage",
+                        "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f/framework-onEvent/Code/Stage"
+                      },
+                      "AssetBucket": {
+                        "id": "AssetBucket",
+                        "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f/framework-onEvent/Code/AssetBucket"
+                      }
+                    }
+                  },
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f/framework-onEvent/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                      "aws:cdk:cloudformation:props": {
+                        "code": {
+                          "s3Bucket": {
+                            "Ref": "AssetParameters7b8f901e53744758131669f2606b340cd2b32759fbbfc3dd93fb3fa4d08d690aS3Bucket24A39C33"
+                          },
+                          "s3Key": {
+                            "Fn::Join": [
+                              "",
+                              [
+                                {
+                                  "Fn::Select": [
+                                    0,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters7b8f901e53744758131669f2606b340cd2b32759fbbfc3dd93fb3fa4d08d690aS3VersionKey0E38F1A8"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Fn::Select": [
+                                    1,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters7b8f901e53744758131669f2606b340cd2b32759fbbfc3dd93fb3fa4d08d690aS3VersionKey0E38F1A8"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "handler": "framework.onEvent",
+                        "role": {
+                          "Fn::GetAtt": [
+                            "CustomResourceProviderping2a8a43b4fframeworkonEventServiceRole21F8ADF7",
+                            "Arn"
+                          ]
+                        },
+                        "runtime": "nodejs10.x",
+                        "description": "AWS CDK resource provider framework - onEvent (aws-cdk-lambdecor-integ-test/CustomResourceProvider-ping2a8a43b4f)",
+                        "environment": {
+                          "variables": {
+                            "USER_ON_EVENT_FUNCTION_ARN": {
+                              "Fn::GetAtt": [
+                                "LambdaFunctionping2a8a43b4f9D465DC7",
+                                "Arn"
+                              ]
+                            }
+                          }
+                        },
+                        "timeout": 900
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "CustomResource-ping2a8a43b4f": {
+            "id": "CustomResource-ping2a8a43b4f",
+            "path": "aws-cdk-lambdecor-integ-test/CustomResource-ping2a8a43b4f",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "aws-cdk-lambdecor-integ-test/CustomResource-ping2a8a43b4f/Default"
+              }
+            }
+          },
+          "UsingUrllib3": {
+            "id": "UsingUrllib3",
+            "path": "aws-cdk-lambdecor-integ-test/UsingUrllib3"
           }
         }
       }
