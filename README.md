@@ -1,3 +1,8 @@
+[![PyPI Version](http://img.shields.io/pypi/v/aws-cdk-lambdecor.svg)](https://pypi.org/project/aws-cdk-lambdecor/)
+[![Is Wheel](https://img.shields.io/pypi/wheel/aws-cdk-lambdecor.svg?style=flat)](https://pypi.org/project/aws-cdk-lambdecor/)
+[![PyCI release](https://img.shields.io/badge/pyci-release-brightgreen.svg)](https://github.com/iliapolo/aws-cdk-lambdecor)
+![Build Status](https://github.com/iliapolo/aws-cdk-lambdecor/workflows/master/badge.svg)
+
 # aws-cdk-lambdecor
 
 Transform native python function into AWS CDK Custom Resources.

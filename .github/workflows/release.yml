@@ -1,4 +1,4 @@
-name: Master
+name: master
 on:
   push:
     branches:
@@ -21,7 +21,7 @@ jobs:
           virtualenv --python python3 .aws-cdk-lambdecor-release
           source ./.aws-cdk-lambdecor-release/bin/activate
           pip install -r test-requirements.txt
-          pyci release --repo iliapolo/aws-cdk-lambdecor --branch master --force --no-binary
+          pyci release --repo iliapolo/aws-cdk-lambdecor --branch master --no-binary
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TWINE_USERNAME: ${{ secrets.TWINE_USERNAME }}
