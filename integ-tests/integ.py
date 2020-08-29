@@ -10,38 +10,42 @@ stack = cdk.Stack(app, 'aws-cdk-lambdecor-integ-test')
 bucket = s3.Bucket(stack, 'Bucket', removal_policy=cdk.RemovalPolicy.DESTROY)
 
 @aws_lambda(stack)
-def return_string(input):
-  return f'input={input}'
+def return_string(arg):
+  return f'arg={arg}'
 
 @aws_lambda(stack)
-def return_int(input):
-  return input + 1
+def return_int(arg):
+  return arg + 1
 
 @aws_lambda(stack)
-def return_boolean(input):
-  return input != True
+def return_boolean(arg):
+  return arg != True
 
 @aws_lambda(stack)
-def return_list(input):
-  return [input]
+def return_list(arg):
+  return [arg]
 
 @aws_lambda(stack)
-def return_dictionary(input):
-  return {'input': input}
+def return_dictionary(arg):
+  return {'arg': arg}
 
 @aws_lambda(stack)
-def accept_token(input):
-  return f'token={input}'
+def accept_token(arg):
+  return f'token={arg}'
+
+@aws_lambda(stack)
+def which_type(arg):
+  return f'type of {arg} is {type(arg)}'
 
 def make_output(name, value):
   cdk.CfnOutput(stack, name, value=value)
 
-return_string('input')
-return_int(5)
-return_boolean('input')
-return_list('input')
-return_dictionary('input')
-accept_token(bucket.bucket_name)
+make_output('String', which_type('input'))
+make_output('Integer', which_type(5))
+make_output('Boolean', which_type(True))
+# make_output('List', return_list('input'))
+# make_output('Dictionary', return_dictionary('input'))
+# make_output('Token', accept_token(bucket.bucket_name))
 
 app.synth()
 

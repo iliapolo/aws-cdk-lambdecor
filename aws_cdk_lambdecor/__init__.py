@@ -15,7 +15,8 @@ class aws_lambda(object):
 
     def wrapper(*args, **kwargs):
 
-      function_name = func.__name__
+      hashi = str(hash(json.dumps(args) + json.dumps(kwargs)))[:9]
+      function_name = func.__name__ + hashi
 
       remote = lamb.Function(self._scope, f'LambdaFunction-{function_name}',
         code=lamb.Code.from_inline(self._create_function_code(func)),
@@ -27,18 +28,20 @@ class aws_lambda(object):
 
       provider = cr.Provider(self._scope, f'CustomResourceProvider-{function_name}', on_event_handler=remote)
 
+      # stack = cdk.Stack.of(self._scope)
       resource = cdk.CustomResource(self._scope, f'CustomResource-{function_name}',
         service_token=provider.service_token,
         properties={
-          'args': json.dumps(args),
-          'kwargs': json.dumps(kwargs)
+
+          # avoid any CFN type conversion quirks by serializing
+          # on output and deserializing on input
+          'args': json.dumps(list(args)),
+          'kwargs': json.dumps(dict(kwargs))
         })
 
-      return resource.get_att('Value')
+      return resource.get_att_string('Value')
 
     return wrapper
-
-
 
   def _create_function_code(self, func):
 
@@ -60,8 +63,12 @@ def handler(event, context):
   if request_type == 'Delete':
     pass
 
-  args   = json.loads(props.get('args', '[]'))
-  kwargs = json.loads(props.get('kwargs', '{{}}'))
+  args_prop = props.get('args', '[]')
+  kwargs_prop = props.get('kwargs', '{{}}')
+
+  # deserialize on input since we serialize on output
+  args = json.loads(args_prop)
+  kwargs = json.loads(kwargs_prop)
 
   # invoke the original function with the original arguments.
   return_value = {func.__name__}(*args, **kwargs)
