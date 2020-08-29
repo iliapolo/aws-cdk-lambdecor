@@ -51,6 +51,7 @@ class aws_lambda(object):
 
     return f'''
 import json
+import urllib3
 
 # this is the original native python function
 {sanitized_function_code}

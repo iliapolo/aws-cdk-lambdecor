@@ -33,18 +33,21 @@ You can also use tokens:
 from aws_cdk_lambdecor import aws_lambda
 from aws_cdk import core as cdk
 from aws_cdk import s3
+from aws_cdk import aws_apigateway as apigateway
 
 app = cdk.App()
 stack = cdk.Stack(app, 'HelloLambdecor')
 
 @aws_lambda(stack)
-def download_index(bucket_name):
-  return download(f's3://{bucket_name}/index.html')
+def ping(url):
+  http = urllib3.PoolManager()
+  r = http.request('GET', url)
+  return r.status
 
-bucket = s3.Bucket.from_bucket_name(stack, 'Website', 'www.mysite.com')
-index = download_index(bucket.bucket_name)
+api = apigateway.LambdaRestApi(...)
+status = ping(api.url)
 
-cdk.CfnOutput(stack, 'Index', value=index)
+cdk.CfnOutput(stack, 'Status', value=status)
 
 app.synth()
 ```
@@ -55,16 +58,12 @@ The Custom Resource is created with the [Python3.6 Lambda Runtime](https://docs.
 
 ### Imports
 
-Your function code should do an inline import of the python module you want to use. For example, to use the `urllib3` module, you would write:
+The following modules are pre-imported into the lambda environment:
 
-```python
-@aws_lambda(stack)
-def download():
-  import urllib3
-  # do something...
-```
+- `json`
+- `urllib3`
 
-> The `json` library is pre-imported, so you don't have to do this to use `json`.
+To use any other module, you would need to do an inline import.
 
 ## Install
 
