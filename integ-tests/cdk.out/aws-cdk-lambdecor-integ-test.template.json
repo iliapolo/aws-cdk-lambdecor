@@ -8,7 +8,7 @@
         "aws:cdk:path": "aws-cdk-lambdecor-integ-test/Bucket/Resource"
       }
     },
-    "LambdaFunctionwhichtype671394473ServiceRoleDC94452F": {
+    "LambdaFunctionwhichtype28318315ServiceRole68C0F08F": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -39,19 +39,19 @@
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type671394473/ServiceRole/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-28318315/ServiceRole/Resource"
       }
     },
-    "LambdaFunctionwhichtype6713944730698420D": {
+    "LambdaFunctionwhichtype28318315AD88AC43": {
       "Type": "AWS::Lambda::Function",
       "Properties": {
         "Code": {
-          "ZipFile": "\nimport json\n\n# this is the original native python function\ndef which_type(arg):\n  return f'type of {arg} is {type(arg)}'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = which_type(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+          "ZipFile": "\nimport json\n\n# this is the original native python function\ndef which_type(arg):\n  return f'type of {arg} is {type(arg)}'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = which_type(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
         },
         "Handler": "index.handler",
         "Role": {
           "Fn::GetAtt": [
-            "LambdaFunctionwhichtype671394473ServiceRoleDC94452F",
+            "LambdaFunctionwhichtype28318315ServiceRole68C0F08F",
             "Arn"
           ]
         },
@@ -60,13 +60,13 @@
         "Timeout": 900
       },
       "DependsOn": [
-        "LambdaFunctionwhichtype671394473ServiceRoleDC94452F"
+        "LambdaFunctionwhichtype28318315ServiceRole68C0F08F"
       ],
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type671394473/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-28318315/Resource"
       }
     },
-    "CustomResourceProviderwhichtype671394473frameworkonEventServiceRole6C3C9C52": {
+    "CustomResourceProviderwhichtype28318315frameworkonEventServiceRole503FBBF4": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -97,10 +97,10 @@
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type671394473/framework-onEvent/ServiceRole/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-28318315/framework-onEvent/ServiceRole/Resource"
       }
     },
-    "CustomResourceProviderwhichtype671394473frameworkonEventServiceRoleDefaultPolicy81C2D6E6": {
+    "CustomResourceProviderwhichtype28318315frameworkonEventServiceRoleDefaultPolicyB34825BF": {
       "Type": "AWS::IAM::Policy",
       "Properties": {
         "PolicyDocument": {
@@ -110,7 +110,7 @@
               "Effect": "Allow",
               "Resource": {
                 "Fn::GetAtt": [
-                  "LambdaFunctionwhichtype6713944730698420D",
+                  "LambdaFunctionwhichtype28318315AD88AC43",
                   "Arn"
                 ]
               }
@@ -118,18 +118,18 @@
           ],
           "Version": "2012-10-17"
         },
-        "PolicyName": "CustomResourceProviderwhichtype671394473frameworkonEventServiceRoleDefaultPolicy81C2D6E6",
+        "PolicyName": "CustomResourceProviderwhichtype28318315frameworkonEventServiceRoleDefaultPolicyB34825BF",
         "Roles": [
           {
-            "Ref": "CustomResourceProviderwhichtype671394473frameworkonEventServiceRole6C3C9C52"
+            "Ref": "CustomResourceProviderwhichtype28318315frameworkonEventServiceRole503FBBF4"
           }
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type671394473/framework-onEvent/ServiceRole/DefaultPolicy/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-28318315/framework-onEvent/ServiceRole/DefaultPolicy/Resource"
       }
     },
-    "CustomResourceProviderwhichtype671394473frameworkonEvent88BD62DA": {
+    "CustomResourceProviderwhichtype28318315frameworkonEventCB905B18": {
       "Type": "AWS::Lambda::Function",
       "Properties": {
         "Code": {
@@ -173,17 +173,17 @@
         "Handler": "framework.onEvent",
         "Role": {
           "Fn::GetAtt": [
-            "CustomResourceProviderwhichtype671394473frameworkonEventServiceRole6C3C9C52",
+            "CustomResourceProviderwhichtype28318315frameworkonEventServiceRole503FBBF4",
             "Arn"
           ]
         },
         "Runtime": "nodejs10.x",
-        "Description": "AWS CDK resource provider framework - onEvent (aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type671394473)",
+        "Description": "AWS CDK resource provider framework - onEvent (aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-28318315)",
         "Environment": {
           "Variables": {
             "USER_ON_EVENT_FUNCTION_ARN": {
               "Fn::GetAtt": [
-                "LambdaFunctionwhichtype6713944730698420D",
+                "LambdaFunctionwhichtype28318315AD88AC43",
                 "Arn"
               ]
             }
@@ -192,21 +192,21 @@
         "Timeout": 900
       },
       "DependsOn": [
-        "CustomResourceProviderwhichtype671394473frameworkonEventServiceRoleDefaultPolicy81C2D6E6",
-        "CustomResourceProviderwhichtype671394473frameworkonEventServiceRole6C3C9C52"
+        "CustomResourceProviderwhichtype28318315frameworkonEventServiceRoleDefaultPolicyB34825BF",
+        "CustomResourceProviderwhichtype28318315frameworkonEventServiceRole503FBBF4"
       ],
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type671394473/framework-onEvent/Resource",
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-28318315/framework-onEvent/Resource",
         "aws:asset:path": "asset.812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14",
         "aws:asset:property": "Code"
       }
     },
-    "CustomResourcewhichtype671394473": {
+    "CustomResourcewhichtype28318315": {
       "Type": "AWS::CloudFormation::CustomResource",
       "Properties": {
         "ServiceToken": {
           "Fn::GetAtt": [
-            "CustomResourceProviderwhichtype671394473frameworkonEvent88BD62DA",
+            "CustomResourceProviderwhichtype28318315frameworkonEventCB905B18",
             "Arn"
           ]
         },
@@ -216,10 +216,10 @@
       "UpdateReplacePolicy": "Delete",
       "DeletionPolicy": "Delete",
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResource-which_type671394473/Default"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResource-which_type-28318315/Default"
       }
     },
-    "LambdaFunctionwhichtype96901603ServiceRole1AEB1B71": {
+    "LambdaFunctionwhichtype83240047ServiceRole086C139C": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -250,19 +250,19 @@
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-96901603/ServiceRole/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-83240047/ServiceRole/Resource"
       }
     },
-    "LambdaFunctionwhichtype969016033F5684A9": {
+    "LambdaFunctionwhichtype83240047B662216D": {
       "Type": "AWS::Lambda::Function",
       "Properties": {
         "Code": {
-          "ZipFile": "\nimport json\n\n# this is the original native python function\ndef which_type(arg):\n  return f'type of {arg} is {type(arg)}'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = which_type(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+          "ZipFile": "\nimport json\n\n# this is the original native python function\ndef which_type(arg):\n  return f'type of {arg} is {type(arg)}'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = which_type(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
         },
         "Handler": "index.handler",
         "Role": {
           "Fn::GetAtt": [
-            "LambdaFunctionwhichtype96901603ServiceRole1AEB1B71",
+            "LambdaFunctionwhichtype83240047ServiceRole086C139C",
             "Arn"
           ]
         },
@@ -271,13 +271,13 @@
         "Timeout": 900
       },
       "DependsOn": [
-        "LambdaFunctionwhichtype96901603ServiceRole1AEB1B71"
+        "LambdaFunctionwhichtype83240047ServiceRole086C139C"
       ],
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-96901603/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-83240047/Resource"
       }
     },
-    "CustomResourceProviderwhichtype96901603frameworkonEventServiceRole8EFCF597": {
+    "CustomResourceProviderwhichtype83240047frameworkonEventServiceRoleAB2B3D35": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -308,10 +308,10 @@
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-96901603/framework-onEvent/ServiceRole/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-83240047/framework-onEvent/ServiceRole/Resource"
       }
     },
-    "CustomResourceProviderwhichtype96901603frameworkonEventServiceRoleDefaultPolicy2EF08F39": {
+    "CustomResourceProviderwhichtype83240047frameworkonEventServiceRoleDefaultPolicyD4EEB65F": {
       "Type": "AWS::IAM::Policy",
       "Properties": {
         "PolicyDocument": {
@@ -321,7 +321,7 @@
               "Effect": "Allow",
               "Resource": {
                 "Fn::GetAtt": [
-                  "LambdaFunctionwhichtype969016033F5684A9",
+                  "LambdaFunctionwhichtype83240047B662216D",
                   "Arn"
                 ]
               }
@@ -329,18 +329,18 @@
           ],
           "Version": "2012-10-17"
         },
-        "PolicyName": "CustomResourceProviderwhichtype96901603frameworkonEventServiceRoleDefaultPolicy2EF08F39",
+        "PolicyName": "CustomResourceProviderwhichtype83240047frameworkonEventServiceRoleDefaultPolicyD4EEB65F",
         "Roles": [
           {
-            "Ref": "CustomResourceProviderwhichtype96901603frameworkonEventServiceRole8EFCF597"
+            "Ref": "CustomResourceProviderwhichtype83240047frameworkonEventServiceRoleAB2B3D35"
           }
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-96901603/framework-onEvent/ServiceRole/DefaultPolicy/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-83240047/framework-onEvent/ServiceRole/DefaultPolicy/Resource"
       }
     },
-    "CustomResourceProviderwhichtype96901603frameworkonEvent840110A1": {
+    "CustomResourceProviderwhichtype83240047frameworkonEvent14554F23": {
       "Type": "AWS::Lambda::Function",
       "Properties": {
         "Code": {
@@ -384,17 +384,17 @@
         "Handler": "framework.onEvent",
         "Role": {
           "Fn::GetAtt": [
-            "CustomResourceProviderwhichtype96901603frameworkonEventServiceRole8EFCF597",
+            "CustomResourceProviderwhichtype83240047frameworkonEventServiceRoleAB2B3D35",
             "Arn"
           ]
         },
         "Runtime": "nodejs10.x",
-        "Description": "AWS CDK resource provider framework - onEvent (aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-96901603)",
+        "Description": "AWS CDK resource provider framework - onEvent (aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-83240047)",
         "Environment": {
           "Variables": {
             "USER_ON_EVENT_FUNCTION_ARN": {
               "Fn::GetAtt": [
-                "LambdaFunctionwhichtype969016033F5684A9",
+                "LambdaFunctionwhichtype83240047B662216D",
                 "Arn"
               ]
             }
@@ -403,21 +403,21 @@
         "Timeout": 900
       },
       "DependsOn": [
-        "CustomResourceProviderwhichtype96901603frameworkonEventServiceRoleDefaultPolicy2EF08F39",
-        "CustomResourceProviderwhichtype96901603frameworkonEventServiceRole8EFCF597"
+        "CustomResourceProviderwhichtype83240047frameworkonEventServiceRoleDefaultPolicyD4EEB65F",
+        "CustomResourceProviderwhichtype83240047frameworkonEventServiceRoleAB2B3D35"
       ],
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-96901603/framework-onEvent/Resource",
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-83240047/framework-onEvent/Resource",
         "aws:asset:path": "asset.812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14",
         "aws:asset:property": "Code"
       }
     },
-    "CustomResourcewhichtype96901603": {
+    "CustomResourcewhichtype83240047": {
       "Type": "AWS::CloudFormation::CustomResource",
       "Properties": {
         "ServiceToken": {
           "Fn::GetAtt": [
-            "CustomResourceProviderwhichtype96901603frameworkonEvent840110A1",
+            "CustomResourceProviderwhichtype83240047frameworkonEvent14554F23",
             "Arn"
           ]
         },
@@ -427,10 +427,10 @@
       "UpdateReplacePolicy": "Delete",
       "DeletionPolicy": "Delete",
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResource-which_type-96901603/Default"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResource-which_type-83240047/Default"
       }
     },
-    "LambdaFunctionwhichtype82434387ServiceRole5837E947": {
+    "LambdaFunctionwhichtype76634127ServiceRoleDDCFCCCC": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -461,19 +461,19 @@
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-82434387/ServiceRole/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-76634127/ServiceRole/Resource"
       }
     },
-    "LambdaFunctionwhichtype824343871863C0FB": {
+    "LambdaFunctionwhichtype7663412733773FDF": {
       "Type": "AWS::Lambda::Function",
       "Properties": {
         "Code": {
-          "ZipFile": "\nimport json\n\n# this is the original native python function\ndef which_type(arg):\n  return f'type of {arg} is {type(arg)}'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = which_type(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
+          "ZipFile": "\nimport json\n\n# this is the original native python function\ndef which_type(arg):\n  return f'type of {arg} is {type(arg)}'\n\n# this is the CFN handler\ndef handler(event, context):\n  print(json.dumps(event))\n\n  request_type = event['RequestType']\n  props = event['ResourceProperties']\n\n  if request_type == 'Delete':\n    pass\n\n  args_prop = props.get('args', '[]')\n  kwargs_prop = props.get('kwargs', '{}')\n\n  # deserialize on input since we serialize on output\n  args = json.loads(args_prop)\n  kwargs = json.loads(kwargs_prop)\n\n  # invoke the original function with the original arguments.\n  return_value = which_type(*args, **kwargs)\n\n  return {'Data': {'Value': return_value}}\n\n"
         },
         "Handler": "index.handler",
         "Role": {
           "Fn::GetAtt": [
-            "LambdaFunctionwhichtype82434387ServiceRole5837E947",
+            "LambdaFunctionwhichtype76634127ServiceRoleDDCFCCCC",
             "Arn"
           ]
         },
@@ -482,13 +482,13 @@
         "Timeout": 900
       },
       "DependsOn": [
-        "LambdaFunctionwhichtype82434387ServiceRole5837E947"
+        "LambdaFunctionwhichtype76634127ServiceRoleDDCFCCCC"
       ],
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-82434387/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-76634127/Resource"
       }
     },
-    "CustomResourceProviderwhichtype82434387frameworkonEventServiceRole775623E4": {
+    "CustomResourceProviderwhichtype76634127frameworkonEventServiceRole2E0FE240": {
       "Type": "AWS::IAM::Role",
       "Properties": {
         "AssumeRolePolicyDocument": {
@@ -519,10 +519,10 @@
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-82434387/framework-onEvent/ServiceRole/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-76634127/framework-onEvent/ServiceRole/Resource"
       }
     },
-    "CustomResourceProviderwhichtype82434387frameworkonEventServiceRoleDefaultPolicy0A9F52ED": {
+    "CustomResourceProviderwhichtype76634127frameworkonEventServiceRoleDefaultPolicy5CD1F0A8": {
       "Type": "AWS::IAM::Policy",
       "Properties": {
         "PolicyDocument": {
@@ -532,7 +532,7 @@
               "Effect": "Allow",
               "Resource": {
                 "Fn::GetAtt": [
-                  "LambdaFunctionwhichtype824343871863C0FB",
+                  "LambdaFunctionwhichtype7663412733773FDF",
                   "Arn"
                 ]
               }
@@ -540,18 +540,18 @@
           ],
           "Version": "2012-10-17"
         },
-        "PolicyName": "CustomResourceProviderwhichtype82434387frameworkonEventServiceRoleDefaultPolicy0A9F52ED",
+        "PolicyName": "CustomResourceProviderwhichtype76634127frameworkonEventServiceRoleDefaultPolicy5CD1F0A8",
         "Roles": [
           {
-            "Ref": "CustomResourceProviderwhichtype82434387frameworkonEventServiceRole775623E4"
+            "Ref": "CustomResourceProviderwhichtype76634127frameworkonEventServiceRole2E0FE240"
           }
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-82434387/framework-onEvent/ServiceRole/DefaultPolicy/Resource"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-76634127/framework-onEvent/ServiceRole/DefaultPolicy/Resource"
       }
     },
-    "CustomResourceProviderwhichtype82434387frameworkonEvent1AF833BA": {
+    "CustomResourceProviderwhichtype76634127frameworkonEvent5D9EE3D7": {
       "Type": "AWS::Lambda::Function",
       "Properties": {
         "Code": {
@@ -595,17 +595,17 @@
         "Handler": "framework.onEvent",
         "Role": {
           "Fn::GetAtt": [
-            "CustomResourceProviderwhichtype82434387frameworkonEventServiceRole775623E4",
+            "CustomResourceProviderwhichtype76634127frameworkonEventServiceRole2E0FE240",
             "Arn"
           ]
         },
         "Runtime": "nodejs10.x",
-        "Description": "AWS CDK resource provider framework - onEvent (aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-82434387)",
+        "Description": "AWS CDK resource provider framework - onEvent (aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-76634127)",
         "Environment": {
           "Variables": {
             "USER_ON_EVENT_FUNCTION_ARN": {
               "Fn::GetAtt": [
-                "LambdaFunctionwhichtype824343871863C0FB",
+                "LambdaFunctionwhichtype7663412733773FDF",
                 "Arn"
               ]
             }
@@ -614,21 +614,21 @@
         "Timeout": 900
       },
       "DependsOn": [
-        "CustomResourceProviderwhichtype82434387frameworkonEventServiceRoleDefaultPolicy0A9F52ED",
-        "CustomResourceProviderwhichtype82434387frameworkonEventServiceRole775623E4"
+        "CustomResourceProviderwhichtype76634127frameworkonEventServiceRoleDefaultPolicy5CD1F0A8",
+        "CustomResourceProviderwhichtype76634127frameworkonEventServiceRole2E0FE240"
       ],
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-82434387/framework-onEvent/Resource",
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-76634127/framework-onEvent/Resource",
         "aws:asset:path": "asset.812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14",
         "aws:asset:property": "Code"
       }
     },
-    "CustomResourcewhichtype82434387": {
+    "CustomResourcewhichtype76634127": {
       "Type": "AWS::CloudFormation::CustomResource",
       "Properties": {
         "ServiceToken": {
           "Fn::GetAtt": [
-            "CustomResourceProviderwhichtype82434387frameworkonEvent1AF833BA",
+            "CustomResourceProviderwhichtype76634127frameworkonEvent5D9EE3D7",
             "Arn"
           ]
         },
@@ -638,7 +638,7 @@
       "UpdateReplacePolicy": "Delete",
       "DeletionPolicy": "Delete",
       "Metadata": {
-        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResource-which_type-82434387/Default"
+        "aws:cdk:path": "aws-cdk-lambdecor-integ-test/CustomResource-which_type-76634127/Default"
       }
     }
   },
@@ -660,7 +660,7 @@
     "String": {
       "Value": {
         "Fn::GetAtt": [
-          "CustomResourcewhichtype671394473",
+          "CustomResourcewhichtype28318315",
           "Value"
         ]
       }
@@ -668,7 +668,7 @@
     "Integer": {
       "Value": {
         "Fn::GetAtt": [
-          "CustomResourcewhichtype96901603",
+          "CustomResourcewhichtype83240047",
           "Value"
         ]
       }
@@ -676,7 +676,7 @@
     "Boolean": {
       "Value": {
         "Fn::GetAtt": [
-          "CustomResourcewhichtype82434387",
+          "CustomResourcewhichtype76634127",
           "Value"
         ]
       }
