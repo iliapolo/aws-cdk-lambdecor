@@ -7,7 +7,7 @@ with open("README.md") as fp:
 
 setuptools.setup(
     name="aws_cdk_lambdecor",
-    version="0.0.1",
+    version='0.1.0',
 
     description="Define AWS CDK Lambda using native python functions",
     long_description=long_description,
