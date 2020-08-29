@@ -27,16 +27,16 @@
               "artifactHashParameter": "AssetParameters812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14ArtifactHash47216AA1"
             },
             "trace": [
-              "ConstructNode.addMetadata (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/construct-compat.js:310:62)",
-              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:130:29)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
-              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
-              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
-              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "ConstructNode.addMetadata (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/construct-compat.js:310:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:130:29)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
+              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
+              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
+              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -53,7 +53,7 @@
             "type": "aws:cdk:logicalId",
             "data": "Bucket83908E77",
             "trace": [
-              "new Bucket (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-s3/lib/bucket.js:437:26)",
+              "new Bucket (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-s3/lib/bucket.js:437:26)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -65,13 +65,13 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-28318315/ServiceRole/Resource": [
+        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-61370802/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "LambdaFunctionwhichtype28318315ServiceRole68C0F08F",
+            "data": "LambdaFunctionwhichtype61370802ServiceRole213568B6",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -83,12 +83,12 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-28318315/Resource": [
+        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-61370802/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "LambdaFunctionwhichtype28318315AD88AC43",
+            "data": "LambdaFunctionwhichtype61370802813364DC",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -100,15 +100,15 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-28318315/framework-onEvent/ServiceRole/Resource": [
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-61370802/framework-onEvent/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourceProviderwhichtype28318315frameworkonEventServiceRole503FBBF4",
+            "data": "CustomResourceProviderwhichtype61370802frameworkonEventServiceRole2134A5E5",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -120,18 +120,18 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-28318315/framework-onEvent/ServiceRole/DefaultPolicy/Resource": [
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-61370802/framework-onEvent/ServiceRole/DefaultPolicy/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourceProviderwhichtype28318315frameworkonEventServiceRoleDefaultPolicyB34825BF",
+            "data": "CustomResourceProviderwhichtype61370802frameworkonEventServiceRoleDefaultPolicy237E814F",
             "trace": [
-              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
-              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
-              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
-              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
-              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
+              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
+              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
+              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
+              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -143,14 +143,14 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-28318315/framework-onEvent/Resource": [
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-61370802/framework-onEvent/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourceProviderwhichtype28318315frameworkonEventCB905B18",
+            "data": "CustomResourceProviderwhichtype61370802frameworkonEventE20E36D4",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -167,16 +167,16 @@
             "type": "aws:cdk:logicalId",
             "data": "AssetParameters812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14S3BucketE74F71F4",
             "trace": [
-              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
-              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
-              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
-              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
-              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
+              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
+              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
+              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -193,16 +193,16 @@
             "type": "aws:cdk:logicalId",
             "data": "AssetParameters812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14S3VersionKeyCDA54A41",
             "trace": [
-              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
-              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
-              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
-              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
-              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
+              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
+              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
+              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -219,16 +219,16 @@
             "type": "aws:cdk:logicalId",
             "data": "AssetParameters812fb1ad6d57643790c0c720ff7b1226e49679db821db771446a9a950a477b14ArtifactHash47216AA1",
             "trace": [
-              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
-              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
-              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
-              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
-              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
-              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new FileAssetParameters (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:120:22)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:58:25)",
+              "Stack.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack.js:354:33)",
+              "LegacyStackSynthesizer.addFileAsset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:62:31)",
+              "new Asset (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:44)",
+              "AssetCode.bind (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/code.js:137:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:80:33)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -240,12 +240,12 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResource-which_type-28318315/Default": [
+        "/aws-cdk-lambdecor-integ-test/CustomResource-which_type-61370802/Default": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourcewhichtype28318315",
+            "data": "CustomResourcewhichtype61370802",
             "trace": [
-              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
+              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -273,13 +273,13 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-83240047/ServiceRole/Resource": [
+        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type862067611/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "LambdaFunctionwhichtype83240047ServiceRole086C139C",
+            "data": "LambdaFunctionwhichtype862067611ServiceRole1FDCA98F",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -291,12 +291,12 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-83240047/Resource": [
+        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type862067611/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "LambdaFunctionwhichtype83240047B662216D",
+            "data": "LambdaFunctionwhichtype8620676114AE50B22",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -308,15 +308,15 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-83240047/framework-onEvent/ServiceRole/Resource": [
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type862067611/framework-onEvent/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourceProviderwhichtype83240047frameworkonEventServiceRoleAB2B3D35",
+            "data": "CustomResourceProviderwhichtype862067611frameworkonEventServiceRoleE1126DEB",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -328,18 +328,18 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-83240047/framework-onEvent/ServiceRole/DefaultPolicy/Resource": [
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type862067611/framework-onEvent/ServiceRole/DefaultPolicy/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourceProviderwhichtype83240047frameworkonEventServiceRoleDefaultPolicyD4EEB65F",
+            "data": "CustomResourceProviderwhichtype862067611frameworkonEventServiceRoleDefaultPolicy37C6A806",
             "trace": [
-              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
-              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
-              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
-              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
-              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
+              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
+              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
+              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
+              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -351,14 +351,14 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-83240047/framework-onEvent/Resource": [
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type862067611/framework-onEvent/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourceProviderwhichtype83240047frameworkonEvent14554F23",
+            "data": "CustomResourceProviderwhichtype862067611frameworkonEvent605F9077",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -370,12 +370,12 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResource-which_type-83240047/Default": [
+        "/aws-cdk-lambdecor-integ-test/CustomResource-which_type862067611/Default": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourcewhichtype83240047",
+            "data": "CustomResourcewhichtype862067611",
             "trace": [
-              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
+              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -403,13 +403,13 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-76634127/ServiceRole/Resource": [
+        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-21268605/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "LambdaFunctionwhichtype76634127ServiceRoleDDCFCCCC",
+            "data": "LambdaFunctionwhichtype21268605ServiceRole9A301A8C",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -421,12 +421,12 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-76634127/Resource": [
+        "/aws-cdk-lambdecor-integ-test/LambdaFunction-which_type-21268605/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "LambdaFunctionwhichtype7663412733773FDF",
+            "data": "LambdaFunctionwhichtype2126860596F0C040",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -438,15 +438,15 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-76634127/framework-onEvent/ServiceRole/Resource": [
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-21268605/framework-onEvent/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourceProviderwhichtype76634127frameworkonEventServiceRole2E0FE240",
+            "data": "CustomResourceProviderwhichtype21268605frameworkonEventServiceRole4C0CB855",
             "trace": [
-              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new Role (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/role.js:42:22)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:62:35)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -458,18 +458,18 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-76634127/framework-onEvent/ServiceRole/DefaultPolicy/Resource": [
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-21268605/framework-onEvent/ServiceRole/DefaultPolicy/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourceProviderwhichtype76634127frameworkonEventServiceRoleDefaultPolicy5CD1F0A8",
+            "data": "CustomResourceProviderwhichtype21268605frameworkonEventServiceRoleDefaultPolicy3F5E790A",
             "trace": [
-              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
-              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
-              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
-              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
-              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new Policy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/policy.js:42:26)",
+              "Role.addToPrincipalPolicy (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/role.js:164:34)",
+              "Function.addToPrincipal (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/grant.js:69:65)",
+              "Function.addToPrincipalOrResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-iam/lib/grant.js:39:30)",
+              "Function.grantInvoke (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:76:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:63:29)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -481,14 +481,14 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-76634127/framework-onEvent/Resource": [
+        "/aws-cdk-lambdecor-integ-test/CustomResourceProvider-which_type-21268605/framework-onEvent/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourceProviderwhichtype76634127frameworkonEvent5D9EE3D7",
+            "data": "CustomResourceProviderwhichtype21268605frameworkonEvent8DD638AC",
             "trace": [
-              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
-              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
-              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
+              "new Function (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/aws-lambda/lib/function.js:106:26)",
+              "Provider.createFunction (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:54:20)",
+              "new Provider (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/custom-resources/lib/provider-framework/provider.js:25:38)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
@@ -500,12 +500,12 @@
             ]
           }
         ],
-        "/aws-cdk-lambdecor-integ-test/CustomResource-which_type-76634127/Default": [
+        "/aws-cdk-lambdecor-integ-test/CustomResource-which_type-21268605/Default": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CustomResourcewhichtype76634127",
+            "data": "CustomResourcewhichtype21268605",
             "trace": [
-              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-g1ZhLS/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
+              "new CustomResource (/private/var/folders/mb/5zx1h88x2891nhk4qpr6_zc8jcqzm6/T/jsii-kernel-YcLKFw/node_modules/@aws-cdk/core/lib/custom-resource.js:24:25)",
               "/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:49",
               "Kernel._wrapSandboxCode (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8405:20)",
               "Kernel._create (/Users/epolon/.virtualenvs/aws-cdk-lambdecor@iliapolo@github.com/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7932:26)",
