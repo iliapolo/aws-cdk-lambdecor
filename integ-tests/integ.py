@@ -19,8 +19,8 @@ def make_output(name, value):
 make_output('String', typeof('input', named='input'))
 make_output('Integer', typeof(5, named=5))
 make_output('Boolean', typeof(True, named=True))
-# make_output('List', return_list('input'))
-# make_output('Dictionary', return_dictionary('input'))
+make_output('List', typeof(['input'], named=['input']))
+make_output('Dictionary', typeof({'input': 'value'}, named={'input': 'value'}))
 make_output('TokenString', typeof(bucket.bucket_name, named=bucket.bucket_name))
 
 app.synth()
