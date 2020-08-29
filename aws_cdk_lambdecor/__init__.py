@@ -15,8 +15,8 @@ class aws_lambda(object):
 
     def wrapper(*args, **kwargs):
 
-      hashi = str(hash(json.dumps(args) + json.dumps(kwargs)))[:9]
-      function_name = func.__name__ + hashi
+      # hashi = str(hash(json.dumps(args) + json.dumps(kwargs)))[:9]
+      function_name = func.__name__
 
       remote = lamb.Function(self._scope, f'LambdaFunction-{function_name}',
         code=lamb.Code.from_inline(self._create_function_code(func)),
