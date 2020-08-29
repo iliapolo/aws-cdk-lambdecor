@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run Tests
         run: |
-          ./integ-tests/synth.sh
+          ./integ-tests/run.sh
