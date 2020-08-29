@@ -2,8 +2,6 @@
 
 Transform native python function into AWS CDK Custom Resources.
 
-## Examples
-
 ```python
 from aws_cdk_lambdecor import aws_lambda
 from aws_cdk import core as cdk
