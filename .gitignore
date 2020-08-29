@@ -108,8 +108,7 @@ report/
 
 .DS_Store
 
-cdk.out/
-!integ-tests/cdk.out/
+integ-tests/cdk.out/manifest.json
 .vscode/
 ./cdk.json
 .aws-cdk-lambdecor-integ-tests/
