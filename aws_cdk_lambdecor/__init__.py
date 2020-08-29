@@ -1,5 +1,6 @@
 import inspect
 import json
+import hashlib
 
 from aws_cdk import core as cdk
 from aws_cdk import aws_lambda as lamb
@@ -15,7 +16,8 @@ class aws_lambda(object):
 
     def wrapper(*args, **kwargs):
 
-      hashi = str(hash(json.dumps(args) + json.dumps(kwargs)))[:9]
+      hashed = hashlib.md5(bytes(json.dumps(args) + json.dumps(kwargs), 'UTF-8'))
+      hashi = hashed.hexdigest()[:9]
       function_name = func.__name__ + hashi
 
       remote = lamb.Function(self._scope, f'LambdaFunction-{function_name}',

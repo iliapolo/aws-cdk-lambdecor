@@ -41,8 +41,8 @@ def make_output(name, value):
   cdk.CfnOutput(stack, name, value=value)
 
 make_output('String', which_type('input'))
-# make_output('Integer', which_type(5))
-# make_output('Boolean', which_type(True))
+make_output('Integer', which_type(5))
+make_output('Boolean', which_type(True))
 # make_output('List', return_list('input'))
 # make_output('Dictionary', return_dictionary('input'))
 # make_output('Token', accept_token(bucket.bucket_name))
