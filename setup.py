@@ -28,6 +28,8 @@ setuptools.setup(
     python_requires=">=3.6",
 
     classifiers=[
+        'Framework :: AWS CDK',
+        'Framework :: AWS CDK :: 1',
         'Operating System :: POSIX :: Linux',
         'Operating System :: Microsoft',
         "License :: OSI Approved :: Apache Software License",
